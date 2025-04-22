@@ -39,6 +39,26 @@ $(document).ready(function () {
     });
     //..search bar js end..//
 
+    // cart-sidebar js start---
+	$(".cart-open-btn").click(function (event) {
+		event.stopPropagation();
+		$(".cart-sidebar").toggleClass("active");
+		$("body").toggleClass("active");
+	});
+
+	$(".cart-sidebar-close-window-btn").click(function (event) {
+		event.stopPropagation();
+		$(".cart-sidebar").removeClass("active");
+		$("body").toggleClass("active");
+	});
+
+	$(".side-cart-close-btn").click(function (event) {
+		event.stopPropagation();
+		$(".cart-sidebar").toggleClass("active");
+		$("body").toggleClass("active");
+	});
+	// cart-sidebar js end---
+
     // --shop-filer tab js start--
     $('.shop-filer-nav:first-child').addClass('active');
     $('.shop-content-items').hide();
@@ -303,40 +323,27 @@ var swiper = new Swiper(".category-slider", {
 });
 // category slider js end--
 
-// swiper slider js start--
-// var swiper = new Swiper(".printer-swiper-slider", {
-//     spaceBetween: 30,
-//     slidesPerView: 3,
-//     grabCursor: true,
-//     loop: true,
-//     autoplay: {
-//         delay: 2500,
-//         disableOnInteraction: false,
-//     },
-//     pagination: {
-//         el: ".swiper-pagination",
-//         clickable: true,
-//     },
-//     navigation: {
-//         nextEl: '.swiper-button-next',
-//         prevEl: '.swiper-button-prev',
-//     },
-//     breakpoints: {
-//         // when window width is >= 320px
-//         1: {
-//             slidesPerView: 1,
-//         },
-//         // when window width is >= 480px
-//         576: {
-//             slidesPerView: 2,
-//         },
-//         // when window width is >= 992px
-//         992: {
-//             slidesPerView: 3,
-//         }
-//     }
-// });
-// swiper slider js end--
+// related-product slider js start--
+var swiper = new Swiper(".side-cart-slider", {
+	slidesPerView: 2.2,
+	spaceBetween: 10,
+	grabCursor: true,
+	loop: false,
+	speed: 1000,
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	}
+});
+// related-product slider js end--
+
+// progesss-bar js start--
+const progress = document.querySelector('.progress');
+progress.addEventListener('input', function () {
+	const value = this.value;
+	this.style.background = `linear-gradient(to right,rgb(36, 40, 51) 0%,rgb(36, 40, 51) ${value}%,rgb(216, 216, 216) ${value}%)`
+})
+// progesss-bar js end--
 
 // content animation--
 new WOW().init();
