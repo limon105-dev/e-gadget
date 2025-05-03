@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>E-Gadget | About</title>
+		<title>Cart</title>
 		<!-- link css start -->
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -217,13 +217,13 @@
 		</header>
 
 		<main>
-			<!-- about-us banner section start -->
-			<section class="about-us-banner-section common-page-banner">
+			<!-- cart banner section start -->
+			<section class="cart-banner-section common-page-banner">
 				<div class="container">
 					<div class="common-banner-content">
 						<div class="section-heading-wrapper">
 							<h2 class="section-heading wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-								data-wow-delay=".1s">about us</h2>
+								data-wow-delay=".1s">Your cart</h2>
 							<p class="section-heading-text wow animate__animated animate__fadeInUp" data-wow-duration="1s"
 								data-wow-delay=".3s">
 								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, quasi obcaecati
@@ -232,313 +232,141 @@
 					</div>
 				</div>
 			</section>
-			<!-- about-us banner section end -->
+			<!-- cart banner section end -->
 
-			<!-- banner-text section start -->
-			<section class="section banner-text-section banner-text-section1 about-banner-text-section">
+			<!-- cart section start -->
+			<section class="section cart-section">
 				<div class="container">
-					<div class="banner-text-content-wrap">
-						<h2 class="banner-text-content-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-							data-wow-delay=".1s">Our story</h2>
-						<p class="banner-text-content-title-text wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-							data-wow-delay=".3s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, neque veritatis
-							deserunt praesentium ratione perferendis sit autem et vero quo architecto necessitatibus suscipit velit
-							itaque officiis. Aliquam possimus deleniti pariatur.</p>
-					</div>
-				</div>
-			</section>
-			<!-- banner-text section end -->
-
-			<!-- banner-text section start -->
-			<section class="section banner-text-section about-banner-text-section2">
-				<div class="container">
-					<div class="banner-text-content-wrap banner-text-bg1 banner-text-bg text-align-right">
-						<h2 class="banner-text-content-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-							data-wow-delay=".1s">amet consectetur Adipis</h2>
-						<p class="banner-text-content-title-text wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-							data-wow-delay=".3s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, neque veritatis
-							deserunt praesentium ratione perferendis sit autem et vero quo architecto necessitatibus suscipit velit
-							itaque officiis. Aliquam possimus deleniti pariatur. Lorem ipsum dolor sit amet.</p>
-					</div>
-				</div>
-			</section>
-			<!-- banner-text section end -->
-
-			<!-- img-text section start -->
-			<section class="section img-text-section">
-				<div class="container">
-					<div class="img-text-items">
-						<div class="img-text-item">
-							<div class="img-text-img-area">
-								<img src="./assets/images/img-text-img1.jpg" alt="img-text-img1.jpg">
-							</div>
+					<div class="cart-wrapper">
+						<div class="cart-product">
+							<table class="cart-product-table">
+								<thead>
+									<tr>
+										<th>Product</th>
+										<th>Quantity</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="cart-product-details">
+												<a href="#" class="cart-product-img">
+													<img src="./assets/images/product-item-1.png" alt="product-item-1.png">
+												</a>
+												<div class="cart-product-content">
+													<a href="#" class="cart-product-title">Gaming Headset with Mic</a>
+													<div class="cart-product-varient">
+														<span>Color-Black</span>
+													</div>
+													<div class="cart-product-quantity-wrap mobile-cart-quantity">
+														<div class="product-quantity">
+															<button type="button" class="quantity-decrease"><i class="fa-solid fa-minus"></i></button>
+															<input type="number" value="1" class="quantity-total">
+															<button type="button" class="quantity-increase"><i class="fa-solid fa-plus"></i></button>
+														</div>
+														<button class="cart-product-remove-btn"><i class="fa-solid fa-trash"></i></button>
+													</div>
+												</div>
+											</div>
+										</td>
+										<td>
+											<div class="cart-product-quantity-wrap">
+												<div class="product-quantity">
+													<button type="button" class="quantity-decrease"><i class="fa-solid fa-minus"></i></button>
+													<input type="number" value="1" class="quantity-total">
+													<button type="button" class="quantity-increase"><i class="fa-solid fa-plus"></i></button>
+												</div>
+												<button class="cart-product-remove-btn"><i class="fa-solid fa-trash"></i></button>
+											</div>
+										</td>
+										<td>
+											<div class="cart-product-price">
+												<p>1199 BDT</p>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="cart-product-details">
+												<a href="#" class="cart-product-img">
+													<img src="./assets/images/product-item-2.png" alt="product-item-2.png">
+												</a>
+												<div class="cart-product-content">
+													<a href="#" class="cart-product-title">wireless Sociis Buds T100</a>
+													<div class="cart-product-varient">
+														<span>Color-Black</span>
+													</div>
+													<div class="cart-product-quantity-wrap mobile-cart-quantity">
+														<div class="product-quantity">
+															<button type="button" class="quantity-decrease"><i class="fa-solid fa-minus"></i></button>
+															<input type="number" value="1" class="quantity-total">
+															<button type="button" class="quantity-increase"><i class="fa-solid fa-plus"></i></button>
+														</div>
+														<button class="cart-product-remove-btn"><i class="fa-solid fa-trash"></i></button>
+													</div>
+												</div>
+											</div>
+										</td>
+										<td>
+											<div class="cart-product-quantity-wrap">
+												<div class="product-quantity">
+													<button type="button" class="quantity-decrease"><i class="fa-solid fa-minus"></i></button>
+													<input type="number" value="1" class="quantity-total">
+													<button type="button" class="quantity-increase"><i class="fa-solid fa-plus"></i></button>
+												</div>
+												<button class="cart-product-remove-btn"><i class="fa-solid fa-trash"></i></button>
+											</div>
+										</td>
+										<td>
+											<div class="cart-product-price">
+												<p>1199 BDT</p>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
-						<div class="img-text-item">
-							<div class="img-text-content-area">
-								<h2 class="img-text-content-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-									data-wow-delay=".1s">Behind the brand</h2>
-								<p class="img-text-img-text wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-									data-wow-delay=".3s">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, culpa officia est, voluptatibus sit
-									reiciendis blanditiis quae, incidunt laboriosam odio beatae voluptatem alias provident saepe quam?
-									Voluptates at hic incidunt.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- img-text section end -->
-
-			<!-- cta section start -->
-			<section class="section cta-section">
-				<div class="contaner">
-					<div class="cta-content-wrapper">
-						<h3 class="cta-content-title">Special Offers</h3>
-						<h5 class="cta-content-sub-title">Sala up tp 40% off For all Women’s Watch</h5>
-						<div class="cta-btn">
-							<a class="btn custom-btn2" href="#">shop now<span></span></a>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- cta section end -->
-
-			<!-- img-text section start -->
-			<section class="section img-text-section">
-				<div class="container">
-					<div class="img-text-items img-text-items-reverse">
-						<div class="img-text-item">
-							<div class="img-text-content-area">
-								<h2 class="img-text-content-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-									data-wow-delay=".1s">Designed for discovery.</h2>
-								<p class="img-text-img-text wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-									data-wow-delay=".3s">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, culpa officia est, voluptatibus sit
-									reiciendis blanditiis quae, incidunt laboriosam odio beatae voluptatem alias provident saepe quam?
-									Voluptates at hic incidunt.
-								</p>
-							</div>
-						</div>
-						<div class="img-text-item">
-							<div class="img-text-img-area">
-								<img src="./assets/images/img-text-img2.jpg" alt="img-text-img2.jpg">
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- img-text section end -->
-
-			<!-- grid-banner section start -->
-			<section class="section grid-banner-section">
-				<div class="container">
-					<div class="grid-banner-items">
-						<div class="grid-banner-item"
-							style="background-image: url('./assets/images/grid-banner-item-img1.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
-							<div class="grid-banner-item-overlay">
-								<div class="grid-banner-item-content-wrap">
-									<h2 class="grid-banner-item-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-										data-wow-delay=".1s">Lorem, ipsum dolor.</h2>
-									<p class="grid-banner-item-text wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-										data-wow-delay=".3s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos. Lorem
-										ipsum dolor sit amet.</p>
-								</div>
-							</div>
-						</div>
-						<div class="grid-banner-item"
-							style="background-image: url('./assets/images/grid-banner-item-img2.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
-							<div class="grid-banner-item-overlay">
-								<div class="grid-banner-item-content-wrap">
-									<h2 class="grid-banner-item-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-										data-wow-delay=".1s">Lorem, ipsum dolor.</h2>
-									<p class="grid-banner-item-text wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-										data-wow-delay=".3s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos. Lorem
-										ipsum dolor sit amet.</p>
-								</div>
-							</div>
-						</div>
-						<div class="grid-banner-item"
-							style="background-image: url('./assets/images/grid-banner-item-img3.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
-							<div class="grid-banner-item-overlay">
-								<div class="grid-banner-item-content-wrap">
-									<h2 class="grid-banner-item-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-										data-wow-delay=".1s">Lorem, ipsum dolor.</h2>
-									<p class="grid-banner-item-text wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-										data-wow-delay=".3s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos. Lorem
-										ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vitae et
-										praesentium totam architecto eaque nisi unde, incidunt doloremque vero!</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- grid-banner section end -->
-
-			<!-- faq section start -->
-			<section class="section faq-section">
-				<div class="container">
-					<div class="section-heading-wrapper">
-						<h2 class="section-heading wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-							data-wow-delay=".1s">Frequently Asked <span>Questions</span></h2>
-						<p class="section-heading-text wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-							data-wow-delay=".3s">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, quasi obcaecati
-							distinctio ex ipsam odio.</p>
-					</div>
-					<div class="faq-content-wrapper">
-						<div class="faq-accordion wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-							data-wow-delay=".4s">
-							<div class="faq-accordion-items">
-								<div class="faq-accordion-item active">
-									<div class="item-title-wrapper accordion-toggle-btn">
-										<h6 class="item-title">recusandae similique sit sunt cumque ?</h6>
-										<span class="icon">
-											<span class="plus-icon">
-												<i class="fa-solid fa-plus"></i>
-											</span>
-											<span class="minus-icon">
-												<i class="fa-solid fa-minus"></i>
-											</span>
-										</span>
-									</div>
-									<div class="faq-accordion-item-content">
-										<p class="content">Embark on an unforgettable fly fishing
-											adventure with the Sage River Fly Fishing Experience. Combining the tranquility of nature with
-											expert-guided techniques, our tours offer the perfect opportunity to reel in your dream catch.
-										</p>
-									</div>
-								</div>
-								<div class="faq-accordion-item">
-									<div class="item-title-wrapper accordion-toggle-btn">
-										<h6 class="item-title">Odio suscipit debitis velit quidem ?</h6>
-										<span class="icon">
-											<span class="plus-icon">
-												<i class="fa-solid fa-plus"></i>
-											</span>
-											<span class="minus-icon">
-												<i class="fa-solid fa-minus"></i>
-											</span>
-										</span>
-									</div>
-									<div class="faq-accordion-item-content">
-										<p class="content">Embark on an unforgettable fly fishing
-											adventure with the Sage River Fly Fishing Experience. Combining the tranquility of nature with
-											expert-guided techniques, our tours offer the perfect opportunity to reel in your dream catch.
-										</p>
-									</div>
-								</div>
-								<div class="faq-accordion-item">
-									<div class="item-title-wrapper accordion-toggle-btn">
-										<h6 class="item-title">ipsum dolor sit amet elit Nemo, vero ?</h6>
-										<span class="icon">
-											<span class="plus-icon">
-												<i class="fa-solid fa-plus"></i>
-											</span>
-											<span class="minus-icon">
-												<i class="fa-solid fa-minus"></i>
-											</span>
-										</span>
-									</div>
-									<div class="faq-accordion-item-content">
-										<p class="content">Embark on an unforgettable fly fishing
-											adventure with the Sage River Fly Fishing Experience. Combining the tranquility of nature with
-											expert-guided techniques, our tours offer the perfect opportunity to reel in your dream catch.
-										</p>
-									</div>
-								</div>
-								<div class="faq-accordion-item">
-									<div class="item-title-wrapper accordion-toggle-btn">
-										<h6 class="item-title">Lorem ipsum dolor sit amet ?</h6>
-										<span class="icon">
-											<span class="plus-icon">
-												<i class="fa-solid fa-plus"></i>
-											</span>
-											<span class="minus-icon">
-												<i class="fa-solid fa-minus"></i>
-											</span>
-										</span>
-									</div>
-									<div class="faq-accordion-item-content">
-										<p class="content">Embark on an unforgettable fly fishing
-											adventure with the Sage River Fly Fishing Experience. Combining the tranquility of nature with
-											expert-guided techniques, our tours offer the perfect opportunity to reel in your dream catch.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- faq section end -->
-
-			<!-- icon-item section start -->
-			<section class="section icon-item-section">
-				<div class="container">
-					<div class="icon-items">
-						<div class="icon-item wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-							<div class="icon-item-svg-icon">
-								<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-									fill="#5f6368">
-									<path
-										d="M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z" />
-								</svg>
-							</div>
-							<h6 class="icon-item-heading">Worldwide Shipping</h6>
-							<p class="icon-item-text">
-								Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis
-							</p>
-						</div>
-						<div class="icon-item wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-							<div class="icon-item-svg-icon">
-								<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-									fill="#5f6368">
-									<path
-										d="m387-412 35-114-92-74h114l36-112 36 112h114l-93 74 35 114-92-71-93 71ZM240-40v-309q-38-42-59-96t-21-115q0-134 93-227t227-93q134 0 227 93t93 227q0 61-21 115t-59 96v309l-240-80-240 80Zm240-280q100 0 170-70t70-170q0-100-70-170t-170-70q-100 0-170 70t-70 170q0 100 70 170t170 70ZM320-159l160-41 160 41v-124q-35 20-75.5 31.5T480-240q-44 0-84.5-11.5T320-283v124Zm160-62Z" />
-								</svg>
-							</div>
-							<h6 class="icon-item-heading">Premium Quality</h6>
-							<p class="icon-item-text">
-								Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis
-							</p>
-						</div>
-						<div class="icon-item wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-							<div class="icon-item-svg-icon">
-								<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-									fill="#5f6368">
-									<path
-										d="M880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720Zm-720 80h640v-80H160v80Zm0 160v240h640v-240H160Zm0 240v-480 480Z" />
-								</svg>
-							</div>
-							<h6 class="icon-item-heading">Secure Checkout</h6>
-							<p class="icon-item-text">
-								Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis
-							</p>
-						</div>
-						<div class="icon-item wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-							<div class="icon-item-svg-icon">
-								<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-									fill="#5f6368">
-									<path
-										d="M480-400q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0 280q-139 0-241-91.5T122-440h82q14 104 92.5 172T480-200q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h110v80H120v-240h80v94q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Z" />
-								</svg>
-							</div>
-							<h6 class="icon-item-heading">Guaranteed Money Back</h6>
-							<p class="icon-item-text">
-								Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis
+						<div class="cart-order-summary">
+							<table class="order-summary-table">
+								<caption>
+									Order Summary
+								</caption>
+								<tbody>
+									<tr>
+										<td>Subtotal</td>
+										<td>1199 BDT</td>
+									</tr>
+									<tr>
+										<td>Shipping</td>
+										<td>120 BDT</td>
+									</tr>
+									<tr>
+										<td>EStimated Tax</td>
+										<td>45 BDT</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<th>Total</th>
+										<td>1364 BDT</td>
+									</tr>
+								</tfoot>
+							</table>
+							<a href="#!" class="btn custom-btn1">checkout</a>
+							<p class="checkout-summary">
+								Tax included and shipping and discounts calculated at checkout
 							</p>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- icon-item section end -->
+			<!-- cart section end -->
 
 			<!-- cart-sidebar start -->
 			<div class="cart-sidebar">
 				<button class="cart-sidebar-close-window-btn"></button>
-				<div class="cart-sidebar-box">
+				<div class="cart-sidebar-box active">
 					<div class="side-cart-top">
 						<p class="side-cart-heading">YOUR CART</p>
 						<div class="side-cart-heading-icon-wrap">
@@ -761,6 +589,7 @@
 		<!-- js link start-->
 		<script src="./assets/js/jquery-3.7.1.min.js"></script>
 		<script src="./assets/js/swiper-bundle.min.js"></script>
+		<script src="./assets/js/jquery.nicescroll.min.js"></script>
 		<script src="./assets/js/wow.min.js"></script>
 		<script src="./assets/js/script.js"></script>
 		<!-- js link end-->
