@@ -2981,6 +2981,48 @@ input[type=number] {
 
 /* blog-details section css end */
 
+/* article section css start */
+.section.article-section {
+    margin: 50px 0 0 0;
+}
+
+.article-content-wrapper {
+    max-width: 1000px;
+    padding: 30px 20px;
+    border: 1px solid var(--black);
+    margin: 0 auto;
+}
+
+.article-content{
+    margin: 0 0 20px 0;
+}
+
+.article-content:last-child{
+    margin: 0;
+}
+
+.article-content strong{
+    display: block;
+}
+
+.article-content strong, .article-content p {
+    font-size: 14px;
+    font-family: var(--paragraph-font);
+    color: var(--black);
+    margin: 0 0 5px 0;
+    line-height: 22px;
+}
+
+.article-content ul{
+    margin: 0 0 5px 20px;
+    list-style-type: disc;
+}
+
+.article-content ul li p{
+    margin: 0 0 5px 0;
+}
+/* article section css end */
+
 /* cart-sidebar css start */
 .cart-sidebar {
     height: 100vh;
