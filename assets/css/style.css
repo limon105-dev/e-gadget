@@ -2812,7 +2812,7 @@ input[type=number] {
     padding: 20px;
     box-shadow: 0 0 20px 0px rgb(0 0 0 / 5%);
     border-radius: 10px;
-    border: 1px solid var(--brand-color2);
+    border: 1px solid var(--brand-color);
 }
 
 .contact-field-row {
@@ -4175,6 +4175,13 @@ input[type=number] {
 
     /* blog-details section css end */
 
+    
+    /* article section css start */
+    .section.article-section {
+        margin: 82px 0 0 0;
+    }
+    /* article section css end */
+
     /* cart section css start */
     .cart-product-varient {
         margin: 5px 0 0 0;
@@ -4659,6 +4666,16 @@ input[type=number] {
     }
 
     /* icon-item responsive css end */
+
+    /* article section css start */
+    .section.article-section {
+        margin: 62px 0 0 0;
+    }
+
+    .article-content-wrapper {
+        padding: 16px 16px;
+    }
+    /* article section css end */
 
     /* contact section css start */
     .icon-item-svg-icon img {
